@@ -10,4 +10,4 @@ main: src/*.c options.h lib/*.h
 	gcc -o main src/*.c -I./lib -include options.h
 
 clean:
-	rm main $(OUTPUT)
+	rm -f main $(OUTPUT)
